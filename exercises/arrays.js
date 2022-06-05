@@ -21,14 +21,16 @@ function arrays(){
     //
 
     // e. Invertir el orden del array (utilizar reverse).
-    console.log(meses.reverse());
+    var meses2 = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+    console.log(meses2.reverse());
     //
 
     // f. Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).
-    console.log(meses.join("-"));
+    var meses3 = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+    console.log(meses3.join("-"));
     //
 
     // g. Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
-    console.log(meses.slice(4, 10));
+    console.log(meses3.slice(4, 11));
     //
 }
